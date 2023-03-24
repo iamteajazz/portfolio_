@@ -116,7 +116,7 @@ p {
   color: var(--clr-grey-5);
 }
 .banner .intern {
-/*   font-family: cursive; */
+  /* font-family: cursive; */
   font-family: Montserrat, sans-serif !important;
   width: 70%;
   /* text-align: left; */
@@ -136,6 +136,31 @@ header .me {
   rotate: -3deg;
 }
  
+/* hero */
+header {
+  min-height: 80vh;
+  background: var(--clr-grey-1);
+  /* background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)),
+    url(./hero-bcg.jpeg) center/cover no-repeat; */
+    margin-bottom: 80px;
+}
+.banner {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.container h1 {
+  color: var(--clr-white);
+  /* text-transform: lowercase; */
+}
+.container p {
+  color: var(--clr-white);
+  max-width: 25rem;
+  margin: 0 auto;
+  margin-bottom: 1.25rem;
+}
+
 /* for contact form */
 
 .container-2 {
@@ -265,13 +290,6 @@ input[type=submit]:hover {
   margin-top: 120px;
 }
 
-@media screen and (min-width: 992px) {
-  .section-center {
-    width: 95vw;
-  }
-}
-
-
 main {
   min-height: 100vh;
   display: grid;
@@ -359,7 +377,8 @@ nav {
 }
 #projects,
 #services {
-  height: 150vh;
+  /* height: 150vh; */
+  height: 70vh;
   width: 79%;
   margin-left: auto;
   margin-right: auto;
@@ -407,11 +426,23 @@ footer .social {
  background: var(--clr-white);
 }
 
+
+@media screen and (min-width: 992px) {
+  .section-center {
+    width: 95vw;
+  }
+}
+
 @media screen and (min-width: 800px) {
   .logo {
     height: 15px;
   }
 
+  #projects,
+  #services {
+    height: 190vh !important;
+    }
+    
   nav {
     background: transparent;
   }
@@ -452,31 +483,6 @@ footer .social {
     color: var(--clr-white);
   }
 }
-/* hero */
-header {
-  min-height: 80vh;
-  background: var(--clr-grey-1);
-  /* background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)),
-    url(./hero-bcg.jpeg) center/cover no-repeat; */
-    margin-bottom: 80px;
-}
-.banner {
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-  text-align: center;
-}
-.container h1 {
-  color: var(--clr-white);
-  /* text-transform: lowercase; */
-}
-.container p {
-  color: var(--clr-white);
-  max-width: 25rem;
-  margin: 0 auto;
-  margin-bottom: 1.25rem;
-}
-
 
 @media screen and (min-width: 1024px) {
   #projects,
@@ -505,6 +511,10 @@ header {
     width: 90%;
     /* text-align: left; */
   }
+  #projects,
+    #services {
+      height: 190vh !important;
+      }
   #contact {
     margin-top: 90px !important;
   }
