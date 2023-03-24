@@ -116,8 +116,8 @@ p {
   color: var(--clr-grey-5);
 }
 .banner .intern {
-  font-family: cursive;
-  /* font-family: Montserrat, sans-serif !important; */
+/*   font-family: cursive; */
+  font-family: Montserrat, sans-serif !important;
   width: 70%;
   /* text-align: left; */
 }
