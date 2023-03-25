@@ -123,8 +123,9 @@ p {
 }
  
 .hello {
-  font-size: 35px !important;
-  font-family: cursive;
+  font-size: 43px !important;
+/*   font-family: cursive; */
+   font-family: Montserrat, sans-serif !important;
 }
 
 .highimpact {
