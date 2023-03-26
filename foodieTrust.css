@@ -235,7 +235,7 @@ input[type=submit]:hover {
 }
 .prototype {
   text-align: center;
-  width: fit-content;
+/*   width: fit-content; */
   
 }
 
