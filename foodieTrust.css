@@ -240,11 +240,12 @@ input[type=submit]:hover {
 }
 
 .prototype h3 {
-  font-size: 12px;
+  font-size: 10px;
+  margin-top: 15px;
 }
 
 .proto {
-  margin-bottom: 280px;
+  margin-bottom: 300px;
 }
 
 @media screen and (min-width: 992px) {
