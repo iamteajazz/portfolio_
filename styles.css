@@ -118,14 +118,15 @@ p {
 .banner .intern {
   /* font-family: cursive; */
   font-family: Montserrat, sans-serif !important;
-  width: 70%;
+  width: 90%;
   /* text-align: left; */
 }
  
 .hello {
-  font-size: 43px !important;
-/*   font-family: cursive; */
-   font-family: Montserrat, sans-serif !important;
+  font-size: 45px !important;
+  /* font-family: cursive; */
+  font-family: Montserrat, sans-serif !important;
+
 }
 
 .highimpact {
@@ -482,6 +483,12 @@ footer .social {
   }
   .links a:hover {
     color: var(--clr-white);
+  }
+}
+
+@media screen and (min-width: 800px) {
+  #projects h1 {
+    font-size: 2px !important;
   }
 }
 
