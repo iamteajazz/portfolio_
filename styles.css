@@ -190,6 +190,7 @@ header {
   
 }
 
+
 input[type=text], textarea {
   width: 100%;
   padding: 12px;
@@ -217,30 +218,6 @@ input[type=submit]:hover {
 }
 
 
-
-/* @media screen and (min-width: 800px) {
-  h1 {
-    font-size: 4rem;
-  }
-  h2 {
-    font-size: 2.5rem;
-  }
-  h3 {
-    font-size: 1.75rem;
-  }
-  h4 {
-    font-size: 1rem;
-  }
-  body {
-    font-size: 1rem;
-  }
-  h1,
-  h2,
-  h3,
-  h4 {
-    line-height: 1;
-  }
-} */
 .logo {
   height: 15px;
   margin-left: 12.8px;
@@ -379,8 +356,7 @@ nav {
 }
 #projects,
 #services {
-  /* height: 150vh; */
-  height: 70vh;
+  /* height: 70vh; */
   width: 79%;
   margin-left: auto;
   margin-right: auto;
@@ -428,6 +404,10 @@ footer .social {
  background: var(--clr-white);
 }
 
+footer .social :hover{
+  color: black;
+  background-color: #ccc;
+}
 
 @media screen and (min-width: 992px) {
   .section-center {
@@ -486,11 +466,11 @@ footer .social {
   }
 }
 
-@media screen and (min-width: 800px) {
+/* @media screen and (min-width: 800px) {
   #projects h1 {
     font-size: 2px !important;
   }
-}
+} */
 
 @media screen and (min-width: 1024px) {
   #projects,
