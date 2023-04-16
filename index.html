@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+           <a href="./index.html"><img src="./EIO elvis logo.svg" class="logo" alt="logo" /></a> 
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">home</a>
+              </li>
+              <li>
+                <a href="#projects" class="scroll-link">Projects</a>
+              </li>
+              <!-- <li>
+                <a href="#services" class="scroll-link">About</a>
+              </li> -->
+              <li>
+                <a href="./about.html">About</a>
+              </li>
+              <li>
+                <a href="#contact" class="scroll-link">Contact</a>
+              </li>
+            
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container intern">
+          <h1 class="hello"> Hello 👋🏿</h1>
+          <h1>I'm Elvis, a UX/UI Design Intern @ <a href="https://highimpactcareers.co.uk/" class="highimpact">High Impact Careers.</a></h1>
+          <!-- <p>
+            I'm passionate about bringing accessibility to the digital interface and working on making technological products more inclusive for a larger, more diverse user base.
+          </p> -->
+          <!-- <a href="./Elvis Resume.pdf" download="Resume" class="scroll-link btn btn-white">Resumé</a> -->
+          <!-- <embed src="./Elvis Resume.pdf" type="application/pdf" width="100%" height="100%"> -->
+        <button target="_blank" class="scroll-link btn btn-white" onclick="location.href='./ELVIS ITIVE CV.pdf';">Resumé</button>
+          </div>
+        <br>
+        <img  class="me" src="./elvis.jpg" alt="">
+      </div>
+    </header>
+    <!-- about -->
+    <section id="projects" class="section">
+      <div class="title">
+        <br>
+        <div>
+        <img src="./Presentation 3/Slide3.jpg" alt="">
+        <br>
+          <h1>FoodieTrust</h1>
+          <p>Food delivery app to Order food from your favorite restaurant</p>
+          <a class="case-study" href="./foodieTrust.html">View case study</a> 
+      </div>
+      </div>
+    </section>
+    <!-- services -->
+    <section id="services" class="section">
+      <div class="title">
+        <div>
+          <img src="./shopp.jpg" alt=""> 
+          <br>
+          <h1>shoptacle</h1>
+          <p> An Ecommerce Website that deals on women luxury item sales, from Cloths to shoes and accessories.</p>
+          <a class="case-study" href="./shoptacle.html">View case study</a> 
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="title">
+        <div>
+          <img src="./Wata Lxury.png" alt=""> 
+          <br>
+          <h1> <a href="https://wataluxury.com/">Wataluxury</a> </h1>
+          <p> Redesigning an e-commerce Website Landing page.</p>
+          <a class="case-study" href="./wataluxury.html">View case study</a> 
+        </div>
+      </div>
+    </section>
+  
+    <section id="services" class=" review section">
+      <div class="title">
+        <h1>Reviews 💬 </h1>
+        <img src="./review.png" alt="">
+      </div>
+    </section>
+
+<!-- contact -->
+<section id="contact" class="section">
+  <div class="title">
+    <h2>Let's <span>Connect !</span></h2>
+  </div>
+  <div class="container-2">
+    <form method="post" action="./index.php">
+      <p>Let's talk design!</p>
+      <label for="fname">Name</label>
+      <input type="text" id="name" name="name" placeholder="">
+  
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" placeholder="">
+      <label for="subject">Message</label>
+      <textarea id="subject" name="subject" placeholder="Write Your Message.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  
+</section>
+
+    <!-- footer -->
+    <footer class="section">
+      <p>
+        copyright &copy; Trustenable Technologies
+        <span id="date"></span>. all rights reserved.
+      </p>
+      <p class="social">
+        <a href="http://github.com/iamteajazz/" target="_blank">Github</a>
+        <a href="http://www.linkedin.com/in/iamteajazz/" target="_blank">Linkedin</a>
+        <a href="http://twitter.com/iamteajazz" target="_blank">Twitter</a>
+        <a href="">Behance</a>
+      </p>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
