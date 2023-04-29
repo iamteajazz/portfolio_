@@ -69,6 +69,16 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+a,
+::after,
+::before {
+  color: #808080;
+}
+
+a:hover {
+  background: var(--clr-grey-10);
+}
+
 body {
   font-family: var(--ff-secondary);
   background: var(--clr-grey-10);
@@ -100,7 +110,7 @@ h4 {
   font-family: var(--ff-primary);
 } */
 h1 {
-  font-size: 3rem;
+  font-size: 1.3rem;
 }
 h2 {
   font-size: 2rem;
@@ -412,10 +422,18 @@ footer .social :hover{
 @media screen and (min-width: 992px) {
   .section-center {
     width: 95vw;
+    
+  }
+  h1 {
+    font-size: 3rem;
   }
 }
 
 @media screen and (min-width: 800px) {
+  h1 {
+    font-size: 3rem;
+  }
+
   .logo {
     height: 15px;
   }
@@ -473,6 +491,10 @@ footer .social :hover{
 } */
 
 @media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 3rem;
+  }
+  
   #projects,
   #services {
     height: 190vh !important;
@@ -480,6 +502,10 @@ footer .social :hover{
   }
 
   @media screen and (min-width: 1440px) {
+    h1 {
+      font-size:3rem;
+    }
+    
     #projects,
     #services {
       height: 220vh !important;
@@ -487,6 +513,9 @@ footer .social :hover{
     }
 
 @media screen and (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
   .container p {
     max-width: 40rem;
   }
