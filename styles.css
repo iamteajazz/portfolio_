@@ -11,6 +11,25 @@ Variables
 ===============
 */
 
+/* styles for the sections */
+
+.review {
+  background: var(--clr-white); /* Set background color for the review section */
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.review h1 {
+  color: var(--clr-grey-1);
+}
+
+.review img {
+  width: 100px; /* Adjust the width of the review image as needed */
+  margin-top: 1rem;
+}
+
+
+
 :root {
   /* dark shades of primary color*/
   --clr-primary-1: hsl(205, 86%, 17%);
