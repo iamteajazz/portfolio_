@@ -1,193 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio</title>
-    <!-- font-awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
-    <!-- styles -->
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header id="home">
-      <!-- navbar -->
-      <nav id="nav">
-        <div class="nav-center">
-          <!-- nav header -->
-          <div class="nav-header">
-           <a href="./index.html"><img src="./EIO elvis logo.svg" class="logo" alt="logo" /></a>
-            <button class="nav-toggle">
-              <i class="fas fa-bars"></i>
-            </button>
-          </div>
-          <!-- links -->
-          <div class="links-container">
-            <ul class="links">
-              <li>
-                <a href="#home" class="scroll-link">home</a>
-              </li>
-              <li>
-                <a href="#projects" class="scroll-link">Projects</a>
-              </li>
-              <!-- <li>
-                <a href="#services" class="scroll-link">About</a>
-              </li> -->
-              <li>
-                <a href="./about.html">About</a>
-              </li>
-              <li>
-                <a href="#contact" class="scroll-link">Contact</a>
-              </li>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ITIVE ELVIS OVIE</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a target="_blank" href="https://www.facebook.com/iamteajazz" class="fa fa-facebook"></a></li>
+        <li><a target="_blank" href="https://www.twitter.com/iamteajazz" class="fa fa-twitter"></a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/itive-elvis-ovie/" class="fa fa-linkedin"></a></li>
+        <li><a target="_blank" href="https://www.instagram.com/iamteajazz" class="fa fa-instagram"></a></li>
+        <li><a target="_blank" class="github" href="https://github.com/iamteajazz/">Github</a></li>
+      </ul>
+    </nav>
+  </header>
 
-            </ul>
-          </div>
+  <main>
+    <div class="hero">
+      <img id="logo" src="./image/me2.jpg" alt="">
+      <div class="cloud">
+        <img src="images/cloud.png" alt="">
+      </div>
+      <div class="info">
+        <h1>Elvis Ovie</h1>
+        <h4>A Web Developer | <a target="_blank" href="https://iamteajazz.github.io/portfolio_/index.html">UX Designer</a></h4>
+      </div>
+      <!-- <div class="mountain">
+        <div class="cloud-bottom">
+          <img src="images/cloud.png" alt="">
+        </div> -->
+        <div class="mountain1">
+          <img src="images/mountain.png" alt="">
         </div>
-      </nav>
-      <!-- banner -->
-      <div class="banner">
-        <div class="container intern">
-          <h1 class="hello"> Hello 👋🏿</h1>
-          <h1>I'm Elvis, a UX/UI Designer @ <a href="https://highimpactcareers.co.uk/" class="highimpact">High Impact Careers.</a></h1>
-          <button target="_blank" class="scroll-link btn btn-white" onclick="location.href='./ELVIS ITIVE CV.pdf';">Resumé</button>
+      </div>
+    </div>
+
+    <div class="profile">
+      <!-- <a target="_blank" href="./achievements.html"><h2 class="cv">CV !!!</h2></a> -->
+      <button target="_blank" class="scroll-link btn btn-white" onclick="location.href='./Elvis cv.pdf';">Resumé</button>
+      <p class="cert">I have several certifications in Web Development with focus on HTML, CSS & JavaScript.</p>
+    </div>
+    <hr class="hr_1">
+
+<div class="middle-container">
+  <div class="skills">
+    <h2>MY PROJECTS ⬇</h2>
+    <div class="project-container">
+      <div class="skill-row">
+        <a target="_blank" href="https://iamteajazz.github.io/portfolio_/index.html">
+          <p>MY UX DESIGN PORTFOLIO WEBSITE</p>
+          <img class="project-image" src="./image/Header.png" alt="">
+        </a>
+      </div>
+
+      <div class="skill-row">
+        <a target="_blank" href="./certified projects/meetinDog/meetindog.html">
+          <p>MEETINDOG WEBSITE</p>
+          <img class="project-image" src="./image/meetinDog.png" alt="">
+          
+        </a>
+      </div>
+
+      <!-- more project rows with the same structure -->
+      <div class="skill-row">
+        <a target="_blank" href="wataluxury.com">
+          <P>WATALUXURY.COM</P>
+          <img class="wata" src="./image/wataluxury.png" alt="">
+        </a>
+        </div>
+
+        <div class="skill-row">
+          <a target="_blank" href="./certified projects/Registration Form/index.html">
+            <P>REGISTRATION FORM</P>
+            <img class="REGISTRATION" src="./image/registration form.png" alt="">
+          </a>
+        </div>
+
+        <div class="skill-row">
+          <a target="_blank" href="./certified projects/Accessibility Quiz/index.html">
+            <p>QUESTION ACCESIBILITY QUIZ</p>
+            <img class="ACCESIBILITY" src="./image/Accessibility Quiz.png" alt=""></a>
+        </div>
+    
+        <div class="skill-row">
+          <a target="_blank" href="./certified projects/calculator/index.html">
+            <p>CALCULATOR</p>
+            <img class=" calculator" src="./image/CALCULATO.png" alt=""></a>
           </div>
-        <br>
-        <img  class="me" src="./elvis.jpg" alt="">
-      </div>
-    </header>
-    <!-- about -->
-    <section id="projects" class="section">
-      <div class="title">
-        <br>
-        <div>
-        <img src="./Presentation 3/Slide3.jpg" alt="">
-        <br>
-          <h1>FoodieTrust</h1>
-          <p>Food delivery app to Order food from your favorite restaurant</p>
-          <a class="case-study" href="./foodieTrust.html">View case study</a>
-      </div>
-      </div>
-    </section>
 
-  <!-- clonned linkedin -->
-  <section id="services" class="section">
-    <div class="title">
-      <div>
-        <img src="./cloned linkenin/linkedin clone .png" alt="">
-        <br>
-        <h1>Cloned LinkedIn Homepage Design </h1>
-        <p> </p>
-        <a class="case-study" href="./linkedin.html"> View Design</a>
-      </div>
-    </div>
-  </section>
+          <div class="skill-row">
+            <a target="_blank" href="./certified projects/Dice game/dicee.html">
+              <p>DICE GAME</p>
+              <img class="DICE" src="./image/dice_game.png" alt=""></a>
+            </div>
 
-    <!-- services -->
-  
-<section id="services" class="section">
-  <div class="title">
-    <div>
-      <img src="./shopp.jpg" alt=""> 
-      <br>
-      <h1>shoptacle</h1>
-      <p>An Ecommerce Website that deals on women luxury item sales, from Cloths to shoes and accessories.</p>
-      <a class="case-study" href="./shoptacle.html">View case study</a> 
+            <div class="skill-row">
+              <a target="_blank" href="./certified projects/CSS FLEXBOX PHOTO GALLERY/index.html"> 
+                <p>DOG PHOTO GALLARY</p>
+                <img class="GALLARY" src="./image/my dog gallary.png" alt=""></a>
+            </div>
+
+            <div class="skill-row">
+              <a target="_blank" href="./certified projects/cafe menu/index.html">
+                <p>CAFE MENU</p>
+                <img class="CAFE" src="./image/cafe menu.png" alt=""></a>
+            </div>
+
+        <div class="skill-row">
+          <a target="_blank" href="./certified projects/balance sheet/index.html">
+            <p>BALANCE SHEET</p>
+            <img class="BALANCE" src="./image/Balance sheet.png" alt=""></a>
+        </div>
+
     </div>
   </div>
-</section>
+</div>
 
-<section id="services" class="section">
-  <div class="title">
-    <div>
-      <img src="./Wata Lxury.png" alt=""> 
-      <br>
-      <h1>Client Project <a href="https://wataluxury.com/">(Wataluxury)</a></h1>
-      <p>Redesigning an e-commerce Website Landing page.</p>
-      <a class="case-study" href="./wataluxury.html">View case study</a> 
+<!-- ... (remaining code) -->
+
     </div>
+    <hr>
   </div>
-</section>
 
-<section id="services" class="section">
-  <div class="title">
-    <div>
-      <img src="./handopex.png" alt=""> 
-      <br>
-      <h1>Client project (Website)</h1>
-      <p>Contracted to Design the Company's website</p>
-      <a class="case-study" href="./handopexlogin.html">View case study</a> 
+  <div class="contact-me">
+    <!-- <h2>Get In Touch</h2> -->
+    <a class="btn" href="mailto:elvis4real28@gmail.com">CONTACT ME</a>
+  </div>
+
+  <footer>
+    <address>
+      <a href="#">All Rights Reserved ©️ Trustenable Technologies.</a><br />
+    </address>
+    <div class="social-icons">
+      <a target="_blank" href="https://www.facebook.com/iamteajazz" class="fa fa-facebook"></a>
+      <a target="_blank" href="https://www.twitter.com/iamteajazz" class="fa fa-twitter"></a>
+      <a target="_blank" href="https://www.linkedin.com/in/itive-elvis-ovie/" class="fa fa-linkedin"></a>
+      <a target="_blank" href="https://www.instagram.com/iamteajazz" class="fa fa-instagram"></a>
+      <!-- <i class="fa-solid fa-phone">+447436657878</i> -->
     </div>
-  </div>
-</section>
-
-<section id="services" class="review section">
-  <div class="title">
-    <h1>Reviews 💬</h1>
-    <img src="./review.png" alt="">
-  </div>
-</section>
-
-
-<!-- contact -->
-<section id="contact" class="section">
-  <div class="title">
-    <h2>Let's <span>Connect !</span></h2>
-  </div>
-  <div class="container-2">
-    <form method="post" action="contact.php">
-
-
-      <p>Let's talk design!</p>
-
-
-      <label for="fname">Name</label>
-
-
-      <input type="text" id="name" name="name" placeholder="">
-
-
-      <label for="email">Email</label>
-
-
-      <input type="text" id="email" name="email" placeholder="">
-
-
-      <label for="subject">Message</label>
-
-
-      <textarea id="subject" name="subject" placeholder="Write Your Message.." style="height:200px"></textarea>
-
-
-      <input type="submit" value="Submit">
-
-
-      </form>
-
-
-  </div>
-
-</section>
-
-    <!-- footer -->
-    <footer class="section">
-      <p>
-        copyright &copy; Trustenable Technologies
-        <span id="date"></span>. all rights reserved.
-      </p>
-      <p class="social">
-        <a href="http://github.com/iamteajazz/" target="_blank">Github</a>
-        <a href="http://www.linkedin.com/in/iamteajazz/" target="_blank">Linkedin</a>
-        <a href="http://twitter.com/iamteajazz" target="_blank">Twitter</a>
-        <a href="">Behance</a>
-      </p>
-    </footer>
-    <a class="scroll-link top-link" href="#home">
-      <i class="fas fa-arrow-up"></i>
-    </a>
-    <!-- javascript -->
-    <script src="app.js"></script>
-  </body>
+  </footer>
+</main>
+<script src="js/index.js"></script>
+</body>
 </html>
